@@ -140,11 +140,13 @@ O Postman foi utilizado para testes manuais e validação de endpoints REST dura
 ### Pest (PHP)
 Os testes automatizados foram implementados com o Pest, framework moderno de testes para PHP, totalmente integrado ao Laravel.
 
+#### 🚧 ToDo
 > Em breve criarei repositórios públicos com exemplos de testes utilizando a API real em produção.
 
 ### Cypress e Playwright (Javascript)
 Utilizado para testes automatizados de interface.
 
+#### 🚧 ToDo
 > Em breve serão criados repositórios públicos com exemplos de testes utilizando a API real do projeto em produção, desenvolvidos tanto com Playwright quanto com Cypress. O objetivo é demonstrar as habilidades técnicas do desenvolvedor em ambas as tecnologias.
 
 ## Autor - Gercil Junio
