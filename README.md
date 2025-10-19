@@ -2,7 +2,6 @@
 Plataforma em produção: [gragro.com.br](https://gragro.com.br)
 
 ![](./images/gragro_c1.png)
-![](./images/screen_1.gif)
 
 GR.Agro é uma plataforma híbrida (web, mobile web, mobile e desktop) voltado a agrônomos para o gerenciamento completo de clientes, talhões, safras e safrinhas, incluindo caderno de campo, registro fotográfico e compartilhamento de documentos. Atuei de forma independente no desenvolvimento Fullstack, sendo responsável por toda a arquitetura e implementação, do frontend ao backend.
 
@@ -34,7 +33,11 @@ Embora o projeto não tenha recebido investimento, sigo mantendo sua estrutura a
     - [Postman](#postman)
     - [Pest (PHP)](#pest-php)
     - [Cypress e Playwright (Javascript)](#cypress-e-playwright-javascript)
+    - [Telas](#telas)
+      - [Talhões e Safras](#talhões-e-safras)
+      - [Caderno de Campo](#caderno-de-campo)
   - [Autor - Gercil Junio](#autor---gercil-junio)
+
 
 ## Stack e Arquitetura do Backend
 O backend do GR.Agro foi desenvolvido inteiramente com Laravel (PHP), priorizando alta performance, escalabilidade e integração entre serviços. A seguir, estão as principais tecnologias e decisões arquiteturais adotadas no projeto.
@@ -205,6 +208,14 @@ Utilizado para testes automatizados de interface.
 
 #### 🚧 ToDo
 > Em breve serão criados repositórios públicos com exemplos de testes utilizando a API real do projeto em produção, desenvolvidos tanto com Playwright quanto com Cypress. O objetivo é demonstrar as habilidades técnicas do desenvolvedor em ambas as tecnologias.
+
+### Telas
+
+#### Talhões e Safras
+![](./images/screen_1.gif)
+
+#### Caderno de Campo
+![](./images/screen_2.gif)
 
 ## Autor - Gercil Junio
 - [📧 Gmail](mailto:gerciljunio@gmail.com)
