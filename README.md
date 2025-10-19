@@ -31,7 +31,7 @@ O sistema utiliza Redis como driver de filas para o processamento assíncrono de
 
 Essa abordagem evita sobrecarga nas requisições principais, garantindo uma API mais leve e ágil, mesmo durante picos de uso.
 
-![Descrição da imagem](./images/queue_redis_1.png)
+![](./images/queue_redis_1.png)
 
 ### 🧠 Query Caching e Data Caching
 O Redis também é utilizado para armazenar consultas e dados em cache. O cache reduz o número de acessos ao banco de dados e melhora o tempo de resposta em endpoints muito acessados. Essa prática é essencial em projetos de API, pois melhora a escalabilidade, diminui o uso de recursos e mantém a experiência do usuário mais fluida.
@@ -118,6 +118,8 @@ O projeto adota Nuxt.js para Server-Side Rendering (SSR) e Static Site Generatio
 ### 📱 Capacitor.js
 
 O Capacitor.js foi utilizado para empacotar a aplicação web e convertê-la em aplicativo mobile híbrido, disponível para Android e iOS. Essa abordagem permitiu unificar o código-fonte, reduzindo custos e tempo de manutenção, além de garantir funcionalidades nativas, como notificações push e acesso a recursos do dispositivo.
+
+![](./images/capacitor_imports.png)
 
 ## Stack e Estratégia de Testes
 O GR.Agro foi desenvolvido com foco em qualidade, estabilidade e previsibilidade, adotando uma stack de testes moderna e prática, que garante o bom funcionamento da API e das integrações externas.
