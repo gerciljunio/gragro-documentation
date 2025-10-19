@@ -106,6 +106,8 @@ O GR.Agro foi desenvolvido com foco em qualidade, estabilidade e previsibilidade
 ### Postman
 O Postman foi utilizado para testes manuais e validação de endpoints REST durante o desenvolvimento e integração entre serviços.
 
+![Descrição da imagem](./images/test_postman_collections.png)
+
 ### Pest (PHP)
 Os testes automatizados foram implementados com o Pest, framework moderno de testes para PHP, totalmente integrado ao Laravel.
 
