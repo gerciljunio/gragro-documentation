@@ -96,14 +96,39 @@ Esses middlewares asseguram segurança, estabilidade e observabilidade em todo o
 ### 🤖 Integração com Python (Automação com IA)
 O projeto possui um módulo em Python responsável por integrações com ChatGPT (OpenAI API) e Azure AI Speech.
 
-Esse módulo atua de forma autônoma realizando:
+Esse módulo atua de forma autônoma realizandoem quatro etapas:
 
-- Coleta de notícias do setor agro em múltiplas fontes
-- Geração de resumos automáticos via ChatGPT
-- Conversão de texto em áudio com o Azure AI Speech
-- Distribuição automática de boletins diários em formato de áudio para os assinantes
+1. **Coleta** de notícias do setor agro em múltiplas fontes
+2. **Geração** de resumos automáticos via ChatGPT
+3. **Conversão** de texto em áudio com o Azure AI Speech
+4. **Distribuição** automática de boletins diários em formato de áudio para os assinantes
 
-O resultado é um robô inteligente que garante informação rápida, automatizada e acessível.
+Ao final, ele também gera vídeos no formato de story para o Instagram, utilizando a biblioteca MoviePy junto com o áudio gerado na etapa 3 e o título da notícia gerado na etapa 2, deixando-os prontos para postagem. A última etapa ainda não foi concluída, mas será desenvolvida posteriormente, permitindo que cada story seja postado automaticamente no Instagram, sem intervenção humana.
+
+O resultado é um robô inteligente que garante informações rápidas, automatizadas e acessíveis. Todo o processo é executado duas vezes ao dia, utilizando agendamentos simples por meio do crontab.
+
+#### Estrutura de pastas e arquivos da automação com IA
+Somente para referência e conhecimento.
+
+```
+.
+├── config
+│   ├── database.py
+│   ├── dates.py
+│   ├── neural.py
+│   └── storage.py
+├── constants.py
+├── controller
+│   ├── audio.py
+│   └── story.py
+├── daily.py
+├── requirements.txt
+├── robot.py
+├── sync.sh
+└── utils
+    ├── helpers.py
+    └── replaces.py
+```
 
 ### 🚀 Destaques Adicionais
 - Validação de Requisições: uso de Form Requests e regras personalizadas de validação   
