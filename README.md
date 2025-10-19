@@ -96,3 +96,8 @@ O projeto adota Nuxt.js para Server-Side Rendering (SSR) e Static Site Generatio
 ### 📱 Capacitor.js
 
 O Capacitor.js foi utilizado para empacotar a aplicação web e convertê-la em aplicativo mobile híbrido, disponível para Android e iOS. Essa abordagem permitiu unificar o código-fonte, reduzindo custos e tempo de manutenção, além de garantir funcionalidades nativas, como notificações push e acesso a recursos do dispositivo.
+
+## Autor - Gercil Junio
+- [📧 Gmail](mailto:gerciljunio@gmail.com)
+- [💼 LinkedIn](https://www.linkedin.com/in/gercil)
+- [🐙 GitHub](https://github.com/gerciljunio)
