@@ -92,7 +92,15 @@ Eerros centralizados com logs contextuais via [Sentry](https://sentry.io)
 #### Deploy sem interrupções
 Infraestrutura com atualizações contínuas e zero-downtime utilizando o serviço de gerenciamento e provisionamento [Laravel Forge](https://forge.laravel.com) e Github Actions
 
+##### Laravel Forge
+Painel de gerenciamento completo de todos os processos, com relatórios, monitoramentos e ações para casos críticos.
+
 ![](./images/forge_1.png)
+
+##### Github Actions
+Deploy com zero-downtime completo do frontend.
+
+![](./images/ga_web_deploy.png)
 
 ## Stack e Arquitetura do Frontend
 O frontend do GR.Agro foi desenvolvido com foco em performance, escalabilidade e experiência do usuário, utilizando um ecossistema moderno baseado em Vue.js e tecnologias complementares que permitem uma aplicação única funcionar tanto na web quanto no mobile.
