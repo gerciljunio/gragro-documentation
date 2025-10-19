@@ -30,9 +30,7 @@ Embora o projeto não tenha recebido investimento, sigo mantendo sua estrutura a
   - [Stack e Estratégia de Testes](#stack-e-estratégia-de-testes)
     - [Postman](#postman)
     - [Pest (PHP)](#pest-php)
-      - [🚧 ToDo](#-todo)
     - [Cypress e Playwright (Javascript)](#cypress-e-playwright-javascript)
-      - [🚧 ToDo](#-todo-1)
   - [Autor - Gercil Junio](#autor---gercil-junio)
 
 
