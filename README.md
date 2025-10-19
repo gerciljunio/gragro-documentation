@@ -1,4 +1,5 @@
 # GR.Agro
+Plataforma em produção: [gragro.com.br](https://gragro.com.br)
 
 ![Descrição da imagem](./images/gragro_c1.png)
 
@@ -6,7 +7,7 @@ GR.Agro é uma plataforma híbrida (web, mobile web, mobile e desktop) voltado a
 
 Embora o projeto não tenha recebido investimento, sigo mantendo sua estrutura ativa e as tecnologias sempre atualizadas. Devido à complexidade e ao porte do sistema, ele permanece online como uma demonstração funcional e parte do meu portfólio profissional.
 
-- [gragro.com.br](https://gragro.com.br)
+- [GR.Agro](#gragro)
   - [Stack e Arquitetura do Backend](#stack-e-arquitetura-do-backend)
     - [⚡ PHP com Laravel (Octane + Swoole)](#-php-com-laravel-octane--swoole)
     - [📬 Filas (Queues) e Jobs com Redis](#-filas-queues-e-jobs-com-redis)
@@ -29,7 +30,9 @@ Embora o projeto não tenha recebido investimento, sigo mantendo sua estrutura a
   - [Stack e Estratégia de Testes](#stack-e-estratégia-de-testes)
     - [Postman](#postman)
     - [Pest (PHP)](#pest-php)
+      - [🚧 ToDo](#-todo)
     - [Cypress e Playwright (Javascript)](#cypress-e-playwright-javascript)
+      - [🚧 ToDo](#-todo-1)
   - [Autor - Gercil Junio](#autor---gercil-junio)
 
 
