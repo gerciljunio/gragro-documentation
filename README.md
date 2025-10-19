@@ -6,7 +6,32 @@ GR.Agro é uma plataforma híbrida (web, mobile web, mobile e desktop) voltado a
 
 Embora o projeto não tenha recebido investimento, sigo mantendo sua estrutura ativa e as tecnologias sempre atualizadas. Devido à complexidade e ao porte do sistema, ele permanece online como uma demonstração funcional e parte do meu portfólio profissional.
 
-[gragro.com.br](https://gragro.com.br)
+- [gragro.com.br](https://gragro.com.br)
+  - [Stack e Arquitetura do Backend](#stack-e-arquitetura-do-backend)
+    - [⚡ PHP com Laravel (Octane + Swoole)](#-php-com-laravel-octane--swoole)
+    - [📬 Filas (Queues) e Jobs com Redis](#-filas-queues-e-jobs-com-redis)
+    - [🧠 Query Caching e Data Caching](#-query-caching-e-data-caching)
+    - [⏰ Agendamentos Automatizados (Schedules)](#-agendamentos-automatizados-schedules)
+    - [🗄️ Banco de Dados MySQL](#️-banco-de-dados-mysql)
+    - [🔐 Autenticação com Laravel Passport (JWT)](#-autenticação-com-laravel-passport-jwt)
+    - [🧩 Middlewares Personalizados](#-middlewares-personalizados)
+    - [🤖 Integração com Python (Automação com IA)](#-integração-com-python-automação-com-ia)
+    - [🚀 Destaques Adicionais](#-destaques-adicionais)
+      - [Tratamento de Exceções e Logs](#tratamento-de-exceções-e-logs)
+      - [Deploy sem interrupções](#deploy-sem-interrupções)
+        - [Laravel Forge](#laravel-forge)
+        - [Github Actions](#github-actions)
+  - [Stack e Arquitetura do Frontend](#stack-e-arquitetura-do-frontend)
+    - [⚙️ Vue.js](#️-vuejs)
+    - [🎨 Vuetify](#-vuetify)
+    - [🌐 Nuxt.js](#-nuxtjs)
+    - [📱 Capacitor.js](#-capacitorjs)
+  - [Stack e Estratégia de Testes](#stack-e-estratégia-de-testes)
+    - [Postman](#postman)
+    - [Pest (PHP)](#pest-php)
+    - [Cypress e Playwright (Javascript)](#cypress-e-playwright-javascript)
+  - [Autor - Gercil Junio](#autor---gercil-junio)
+
 
 ## Stack e Arquitetura do Backend
 O backend do GR.Agro foi desenvolvido inteiramente com Laravel (PHP), priorizando alta performance, escalabilidade e integração entre serviços. A seguir, estão as principais tecnologias e decisões arquiteturais adotadas no projeto.
