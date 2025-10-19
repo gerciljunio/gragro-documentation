@@ -1,7 +1,8 @@
 # GR.Agro
 Plataforma em produção: [gragro.com.br](https://gragro.com.br)
 
-![Descrição da imagem](./images/gragro_c1.png)
+![](./images/gragro_c1.png)
+![](./images/screen_1.gif)
 
 GR.Agro é uma plataforma híbrida (web, mobile web, mobile e desktop) voltado a agrônomos para o gerenciamento completo de clientes, talhões, safras e safrinhas, incluindo caderno de campo, registro fotográfico e compartilhamento de documentos. Atuei de forma independente no desenvolvimento Fullstack, sendo responsável por toda a arquitetura e implementação, do frontend ao backend.
 
