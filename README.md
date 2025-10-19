@@ -97,6 +97,22 @@ O projeto adota Nuxt.js para Server-Side Rendering (SSR) e Static Site Generatio
 
 O Capacitor.js foi utilizado para empacotar a aplicação web e convertê-la em aplicativo mobile híbrido, disponível para Android e iOS. Essa abordagem permitiu unificar o código-fonte, reduzindo custos e tempo de manutenção, além de garantir funcionalidades nativas, como notificações push e acesso a recursos do dispositivo.
 
+## Stack e Estratégia de Testes
+O GR.Agro foi desenvolvido com foco em qualidade, estabilidade e previsibilidade, adotando uma stack de testes moderna e prática, que garante o bom funcionamento da API e das integrações externas.
+
+### Postman
+O Postman foi utilizado para testes manuais e validação de endpoints REST durante o desenvolvimento e integração entre serviços.
+
+### Pest (PHP)
+Os testes automatizados foram implementados com o Pest, framework moderno de testes para PHP, totalmente integrado ao Laravel.
+
+> Em breve criarei repositórios públicos com exemplos de testes utilizando a API real em produção.
+
+### Cypress (Javascript)
+Utilizado para testes automatizados de interface.
+
+> Em breve criarei repositórios públicos com exemplos de testes utilizando a API real em produção.
+
 ## Autor - Gercil Junio
 - [📧 Gmail](mailto:gerciljunio@gmail.com)
 - [💼 LinkedIn](https://www.linkedin.com/in/gercil)
