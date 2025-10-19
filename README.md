@@ -17,6 +17,7 @@ Embora o projeto não tenha recebido investimento, sigo mantendo sua estrutura a
     - [🔐 Autenticação com Laravel Passport (JWT)](#-autenticação-com-laravel-passport-jwt)
     - [🧩 Middlewares Personalizados](#-middlewares-personalizados)
     - [🤖 Integração com Python (Automação com IA)](#-integração-com-python-automação-com-ia)
+      - [Estrutura de pastas e arquivos da automação com IA](#estrutura-de-pastas-e-arquivos-da-automação-com-ia)
     - [🚀 Destaques Adicionais](#-destaques-adicionais)
       - [Tratamento de Exceções e Logs](#tratamento-de-exceções-e-logs)
       - [Deploy sem interrupções](#deploy-sem-interrupções)
@@ -32,6 +33,7 @@ Embora o projeto não tenha recebido investimento, sigo mantendo sua estrutura a
     - [Pest (PHP)](#pest-php)
     - [Cypress e Playwright (Javascript)](#cypress-e-playwright-javascript)
   - [Autor - Gercil Junio](#autor---gercil-junio)
+
 
 
 ## Stack e Arquitetura do Backend
