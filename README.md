@@ -76,10 +76,19 @@ Esse módulo atua de forma autônoma realizando:
 O resultado é um robô inteligente que garante informação rápida, automatizada e acessível.
 
 ### 🚀 Destaques Adicionais
-- Tratamento de Exceções e Logs: erros centralizados com logs contextuais via [Sentry](https://sentry.io)   
 - Validação de Requisições: uso de Form Requests e regras personalizadas de validação   
 - Ambientes Isolados: configuração por ambiente (.env) com separação entre dev, staging e production
-- Deploy sem interrupções: infraestrutura com atualizações contínuas e zero-downtime utilizando o serviço de gerenciamento e provisionamento [Laravel Forge](https://forge.laravel.com) e Github Actions
+
+#### Tratamento de Exceções e Logs
+Eerros centralizados com logs contextuais via [Sentry](https://sentry.io)   
+
+![](./images/sentry_1.png)
+![](./images/sentry_2.png)
+
+#### Deploy sem interrupções
+Infraestrutura com atualizações contínuas e zero-downtime utilizando o serviço de gerenciamento e provisionamento [Laravel Forge](https://forge.laravel.com) e Github Actions
+
+![](./images/forge_1.png)
 
 ## Stack e Arquitetura do Frontend
 O frontend do GR.Agro foi desenvolvido com foco em performance, escalabilidade e experiência do usuário, utilizando um ecossistema moderno baseado em Vue.js e tecnologias complementares que permitem uma aplicação única funcionar tanto na web quanto no mobile.
