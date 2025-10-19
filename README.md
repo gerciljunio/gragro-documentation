@@ -28,13 +28,12 @@ Embora o projeto não tenha recebido investimento, sigo mantendo sua estrutura a
     - [🎨 Vuetify](#-vuetify)
     - [🌐 Nuxt.js](#-nuxtjs)
     - [📱 Capacitor.js](#-capacitorjs)
+    - [Evidências de requisições em produção](#evidências-de-requisições-em-produção)
   - [Stack e Estratégia de Testes](#stack-e-estratégia-de-testes)
     - [Postman](#postman)
     - [Pest (PHP)](#pest-php)
     - [Cypress e Playwright (Javascript)](#cypress-e-playwright-javascript)
   - [Autor - Gercil Junio](#autor---gercil-junio)
-
-
 
 ## Stack e Arquitetura do Backend
 O backend do GR.Agro foi desenvolvido inteiramente com Laravel (PHP), priorizando alta performance, escalabilidade e integração entre serviços. A seguir, estão as principais tecnologias e decisões arquiteturais adotadas no projeto.
@@ -181,6 +180,10 @@ O projeto adota Nuxt.js para Server-Side Rendering (SSR) e Static Site Generatio
 O Capacitor.js foi utilizado para empacotar a aplicação web e convertê-la em aplicativo mobile híbrido, disponível para Android e iOS. Essa abordagem permitiu unificar o código-fonte, reduzindo custos e tempo de manutenção, além de garantir funcionalidades nativas, como notificações push e acesso a recursos do dispositivo.
 
 ![](./images/capacitor_imports.png)
+
+### Evidências de requisições em produção
+
+![](./images/request_test.png)
 
 ## Stack e Estratégia de Testes
 O GR.Agro foi desenvolvido com foco em qualidade, estabilidade e previsibilidade, adotando uma stack de testes moderna e prática, que garante o bom funcionamento da API e das integrações externas.
