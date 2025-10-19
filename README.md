@@ -87,14 +87,20 @@ O frontend do GR.Agro foi desenvolvido com foco em performance, escalabilidade e
 ### ⚙️ Vue.js
 O núcleo do frontend foi construído com Vue.js, sua arquitetura baseada em componentes facilitou o reuso de elementos em diferentes módulos da aplicação, garantindo padronização visual e consistência de comportamento.
 
+![](./images/front_2.png)
+
 ### 🎨 Vuetify
 Para a camada visual, foi utilizado o Vuetify, um framework de componentes, ele oferece uma experiência de interface moderna, responsiva e intuitiva, permitindo o desenvolvimento rápido de telas sem comprometer a qualidade estética e a usabilidade.
 
 O uso do Vuetify também garantiu acessibilidade nativa e responsividade total para diferentes dispositivos.
 
+![](./images/vuetify_code_1.png)
+
 ### 🌐 Nuxt.js
 
 O projeto adota Nuxt.js para Server-Side Rendering (SSR) e Static Site Generation (SSG), melhorando o desempenho inicial da aplicação.
+
+![](./images/front_1.png)
 
 ### 📱 Capacitor.js
 
@@ -106,7 +112,7 @@ O GR.Agro foi desenvolvido com foco em qualidade, estabilidade e previsibilidade
 ### Postman
 O Postman foi utilizado para testes manuais e validação de endpoints REST durante o desenvolvimento e integração entre serviços.
 
-![Descrição da imagem](./images/test_postman_collections.png)
+![](./images/test_postman_collections.png)
 
 ### Pest (PHP)
 Os testes automatizados foram implementados com o Pest, framework moderno de testes para PHP, totalmente integrado ao Laravel.
