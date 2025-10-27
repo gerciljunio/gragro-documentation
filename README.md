@@ -69,7 +69,9 @@ Isso reduz drasticamente o tempo de resposta e o consumo de recursos, além de p
 
 O resultado é uma API extremamente rápida, com desempenho comparável a soluções em Node.js ou Go.
 
-![](images/octane_daemon_1.png)
+
+![Octane](./images/octane_daemon_1.png)
+
 
 ### 📬 Filas (Queues) e Jobs com Redis
 O sistema utiliza Redis como driver de filas para o processamento assíncrono de tarefas, como:
@@ -80,7 +82,9 @@ O sistema utiliza Redis como driver de filas para o processamento assíncrono de
 
 Essa abordagem evita sobrecarga nas requisições principais, garantindo uma API mais leve e ágil, mesmo durante picos de uso.
 
-![](./images/queue_redis_1.png)
+
+![Redis](./images/queue_redis_1.png)
+
 
 ### 🧠 Query Caching e Data Caching
 O Redis também é utilizado para armazenar consultas e dados em cache. O cache reduz o número de acessos ao banco de dados e melhora o tempo de resposta em endpoints muito acessados. Essa prática é essencial em projetos de API, pois melhora a escalabilidade, diminui o uso de recursos e mantém a experiência do usuário mais fluida.
