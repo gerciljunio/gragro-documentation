@@ -41,21 +41,21 @@ GR.Agro é uma plataforma híbrida (web, mobile web, mobile e desktop) voltado a
 
 ## Resumo de **todas** tecnologias utilizadas
 
-- **PHP** e **Laravel** persistido com **Octane** e **Swoole**
-- Banco de dados principal com **MySQL**, além **Query Caching**, **Data Caching** e **Queues** (Filas) com **Redis**
-- Armazenamento de arquivos e envio de e-mails transacionais via **AWS S3** e **AWS SES**
-- Gerenciamento de variáveis de ambiente e segredos com **AWS SSM Parameter Store**
-- Schedules gerenciados com **Redis** e **Crontab** (Linux)
-- Integração com IA, extração e análise de dados, além de microsserviços de apoio desenvolvidos em **Python**
-- Provisionamento e gerenciamento de servidores com **Laravel Forge**
-- Ambientes dev, staging e production com pipelines **GitHub Actions** e deploy automatizado via **Laravel Forge** com zero-downtime
-- CI/CD com **Github Actions**
-- Monitoramento com **Sentry**
-- CDN, WAF, Tunnels (ambiente de desenvolvimento) e Load Balancer com **Cloudflare**
-- Testes manuais e automatizados da API com **Postman** e **Pest**
-- VPS principal e VPS de banco de dados hospedadas na **Hetzner Cloud**, configuradas em rede interna
-- Frontend único em **Vue.js**, **Nuxt.js** e **Vuetify**, compilado para web e mobile com **Capacitor.js**, garantindo experiência consistente e responsiva em todas as plataformas
-- Rate Limiting e bloqueio de crawlers com **Middlewars** e **Redis**, Autenticação **JWT Passwordless** (Passport)
+- **<ins>PHP</ins>** e **<ins>Laravel</ins>** persistido com **<ins>Octane</ins>** e **<ins>Swoole</ins>**
+- Banco de dados principal com **<ins>MySQL</ins>**, além **<ins>Query Caching</ins>**, **<ins>Data Caching</ins>** e **<ins>Queues</ins>** (Filas) com **<ins>Redis</ins>**
+- Armazenamento de arquivos e envio de e-mails transacionais via **<ins>AWS S3</ins>** e **<ins>AWS SES</ins>**
+- Gerenciamento de variáveis de ambiente e segredos com **<ins>AWS SSM Parameter Store</ins>**
+- Schedules gerenciados com **<ins>Redis</ins>** e **<ins>Crontab</ins>** (Linux)
+- Integração com IA, extração e análise de dados, além de microsserviços de apoio desenvolvidos em **<ins>Python</ins>**
+- Provisionamento e gerenciamento de servidores com **<ins>Laravel Forge</ins>**
+- Ambientes dev, staging e production com pipelines **<ins>GitHub Actions</ins>** e deploy automatizado via **<ins>Laravel Forge</ins>** com zero-downtime
+- CI/CD com **<ins>Github Actions</ins>**
+- Monitoramento com **<ins>Sentry</ins>**
+- CDN, WAF, Tunnels (ambiente de desenvolvimento) e Load Balancer com **<ins><ins>Cloudflare</ins></ins>**
+- Testes manuais e automatizados da API com **<ins>Postman</ins>** e **<ins>Pest</ins>**
+- VPS principal e VPS de banco de dados hospedadas na **<ins>Hetzner Cloud</ins>**, configuradas em rede interna
+- Frontend único em **<ins>Vue.js</ins>**, **<ins>Nuxt.js</ins>** e **<ins>Vuetify</ins>**, compilado para web e mobile com **<ins>Capacitor.js</ins>**, garantindo experiência consistente e responsiva em todas as plataformas
+- Rate Limiting e bloqueio de crawlers com **<ins>Middlewars</ins>** e **<ins>Redis</ins>**, Autenticação **<ins>JWT Passwordless</ins>** (Passport)
 
 ## Stack e Arquitetura do Backend
 O backend do GR.Agro foi desenvolvido inteiramente com Laravel (PHP), priorizando alta performance, escalabilidade e integração entre serviços. A seguir, estão as principais tecnologias e decisões arquiteturais adotadas no projeto.
