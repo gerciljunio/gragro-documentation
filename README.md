@@ -70,7 +70,7 @@ Isso reduz drasticamente o tempo de resposta e o consumo de recursos, além de p
 O resultado é uma API extremamente rápida, com desempenho comparável a soluções em Node.js ou Go.
 
 
-![Octane](./images/octane_daemon_1.png)
+![Octane](./images/od1.png)
 
 
 ### 📬 Filas (Queues) e Jobs com Redis
