@@ -70,7 +70,7 @@ Isso reduz drasticamente o tempo de resposta e o consumo de recursos, além de p
 O resultado é uma API extremamente rápida, com desempenho comparável a soluções em Node.js ou Go.
 
 
-![Octane](./images/od1.png)
+![Octane](./images/od1.jpg)
 
 
 ### 📬 Filas (Queues) e Jobs com Redis
@@ -164,7 +164,7 @@ Somente para referência e conhecimento.
 #### Tratamento de Exceções e Logs
 Eerros centralizados com logs contextuais via [Sentry](https://sentry.io)   
 
-![](./images/sentry_1.png)
+![](./images/sentry_1.jpg)
 ![](./images/sentry_2.png)
 
 #### Deploy sem interrupções
@@ -217,7 +217,7 @@ O GR.Agro foi desenvolvido com foco em qualidade, estabilidade e previsibilidade
 ### Postman
 O Postman foi utilizado para testes manuais e validação de endpoints REST durante o desenvolvimento e integração entre serviços.
 
-![](./images/test_postman_collections.png)
+![](./images/test_postman_collections.jpg)
 
 ### Pest (PHP)
 Os testes automatizados foram implementados com o Pest, framework moderno de testes para PHP, totalmente integrado ao Laravel.
