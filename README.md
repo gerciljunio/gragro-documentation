@@ -1,7 +1,7 @@
 # GR.Agro
 Plataforma em produção: [gragro.com.br](https://gragro.com.br)
 
-![](./images/gragro_c1.png)
+![](./.github/assets/gragro_c1.png)
 
 GR.Agro é uma plataforma híbrida (web, mobile web, mobile e desktop) voltado a agrônomos para o gerenciamento completo de clientes, talhões, safras e safrinhas, incluindo caderno de campo, registro fotográfico e compartilhamento de documentos. Atuei de forma independente no desenvolvimento Fullstack, sendo responsável por toda a arquitetura e implementação, do frontend ao backend.
 
@@ -70,7 +70,7 @@ Isso reduz drasticamente o tempo de resposta e o consumo de recursos, além de p
 O resultado é uma API extremamente rápida, com desempenho comparável a soluções em Node.js ou Go.
 
 
-![Octane](./images/od1.jpg)
+![Octane](./.github/assets/od1.png)
 
 
 ### 📬 Filas (Queues) e Jobs com Redis
@@ -83,7 +83,7 @@ O sistema utiliza Redis como driver de filas para o processamento assíncrono de
 Essa abordagem evita sobrecarga nas requisições principais, garantindo uma API mais leve e ágil, mesmo durante picos de uso.
 
 
-![Redis](./images/queue_redis_1.png)
+![Redis](./.github/assets/queue_redis_1.png)
 
 
 ### 🧠 Query Caching e Data Caching
@@ -164,8 +164,8 @@ Somente para referência e conhecimento.
 #### Tratamento de Exceções e Logs
 Eerros centralizados com logs contextuais via [Sentry](https://sentry.io)   
 
-![](./images/sentry_1.jpg)
-![](./images/sentry_2.png)
+![](./.github/assets/sentry_1.jpg)
+![](./.github/assets/sentry_2.png)
 
 #### Deploy sem interrupções
 Infraestrutura com atualizações contínuas e zero-downtime utilizando o serviço de gerenciamento e provisionamento [Laravel Forge](https://forge.laravel.com) e Github Actions
@@ -173,12 +173,12 @@ Infraestrutura com atualizações contínuas e zero-downtime utilizando o servi�
 ##### Laravel Forge
 Painel de gerenciamento completo de todos os processos, com relatórios, monitoramentos e ações para casos críticos.
 
-![](./images/forge_1.png)
+![](./.github/assets/forge_1.png)
 
 ##### Github Actions
 Deploy com zero-downtime completo do frontend.
 
-![](./images/ga_web_deploy.png)
+![](./.github/assets/ga_web_deploy.png)
 
 ## Stack e Arquitetura do Frontend
 O frontend do GR.Agro foi desenvolvido com foco em performance, escalabilidade e experiência do usuário, utilizando um ecossistema moderno baseado em Vue.js e tecnologias complementares que permitem uma aplicação única funcionar tanto na web quanto no mobile.
@@ -186,30 +186,30 @@ O frontend do GR.Agro foi desenvolvido com foco em performance, escalabilidade e
 ### ⚙️ Vue.js
 O núcleo do frontend foi construído com Vue.js, sua arquitetura baseada em componentes facilitou o reuso de elementos em diferentes módulos da aplicação, garantindo padronização visual e consistência de comportamento.
 
-![](./images/front_2.png)
+![](./.github/assets/front_2.png)
 
 ### 🎨 Vuetify
 Para a camada visual, foi utilizado o Vuetify, um framework de componentes, ele oferece uma experiência de interface moderna, responsiva e intuitiva, permitindo o desenvolvimento rápido de telas sem comprometer a qualidade estética e a usabilidade.
 
 O uso do Vuetify também garantiu acessibilidade nativa e responsividade total para diferentes dispositivos.
 
-![](./images/vuetify_code_1.png)
+![](./.github/assets/vuetify_code_1.png)
 
 ### 🌐 Nuxt.js
 
 O projeto adota Nuxt.js para Server-Side Rendering (SSR) e Static Site Generation (SSG), melhorando o desempenho inicial da aplicação.
 
-![](./images/front_1.png)
+![](./.github/assets/front_1.png)
 
 ### 📱 Capacitor.js
 
 O Capacitor.js foi utilizado para empacotar a aplicação web e convertê-la em aplicativo mobile híbrido, disponível para Android e iOS. Essa abordagem permitiu unificar o código-fonte, reduzindo custos e tempo de manutenção, além de garantir funcionalidades nativas, como notificações push e acesso a recursos do dispositivo.
 
-![](./images/capacitor_imports.png)
+![](./.github/assets/capacitor_imports.png)
 
 ### Evidências de requisições em produção
 
-![](./images/request_test.png)
+![](./.github/assets/request_test.png)
 
 ## Stack e Estratégia de Testes
 O GR.Agro foi desenvolvido com foco em qualidade, estabilidade e previsibilidade, adotando uma stack de testes moderna e prática, que garante o bom funcionamento da API e das integrações externas.
@@ -217,7 +217,7 @@ O GR.Agro foi desenvolvido com foco em qualidade, estabilidade e previsibilidade
 ### Postman
 O Postman foi utilizado para testes manuais e validação de endpoints REST durante o desenvolvimento e integração entre serviços.
 
-![](./images/test_postman_collections.jpg)
+![](./.github/assets/test_postman_collections.jpg)
 
 ### Pest (PHP)
 Os testes automatizados foram implementados com o Pest, framework moderno de testes para PHP, totalmente integrado ao Laravel.
@@ -234,10 +234,10 @@ Utilizado para testes automatizados de interface.
 ### Telas
 
 #### Talhões e Safras
-![](./images/screen_1.gif)
+![](./.github/assets/screen_1.gif)
 
 #### Caderno de Campo
-![](./images/screen_2.gif)
+![](./.github/assets/screen_2.gif)
 
 ## Autor - Gercil Junio
 - [📧 Gmail](mailto:gerciljunio@gmail.com)
