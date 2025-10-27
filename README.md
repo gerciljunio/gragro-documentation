@@ -69,7 +69,7 @@ Isso reduz drasticamente o tempo de resposta e o consumo de recursos, além de p
 
 O resultado é uma API extremamente rápida, com desempenho comparável a soluções em Node.js ou Go.
 
-![Descrição da imagem](./images/octane_daemon_1.png)
+![](images/octane_daemon_1.png)
 
 ### 📬 Filas (Queues) e Jobs com Redis
 O sistema utiliza Redis como driver de filas para o processamento assíncrono de tarefas, como:
